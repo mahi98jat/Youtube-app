@@ -1,0 +1,51 @@
+#nav_bar {
+  height: 90px;
+  width: 1500px;
+  border: 1px solid black;
+}
+
+#nav_bar > div > img {
+  height: 60px;
+  width: 100px;
+  border-radius: 5px;
+}
+#nav_bar > div {
+  float: left;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+#search_bar {
+  height: 50px;
+  width: 500px;
+  margin-left: 15%;
+  margin-top: 1%;
+  border: 1px solid blue;
+  font-size: 20px;
+}
+button {
+  height: 98%;
+  width: 100px;
+  float: right;
+  border: none;
+}
+button > img {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+#input {
+  height: 90%;
+  width: 390px;
+  border: none;
+}
+#data_container {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  gap: 3%;
+  margin: auto;
+}
+.vid_cont {
+  height: 300px;
+  width: 250px;
+  margin: 20px;
+}
